@@ -16,6 +16,83 @@
   font-family: var(--font-geist-sans);
 }
 
+/* styles/page.module.css */
+
+/* styles/page.module.css */
+
+.hero {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 110vh;
+  text-align: center;
+  background-color: #dafdba;
+}
+
+.about {
+  background-color: rgba(217, 252, 186, 1); /* Cor inicial */
+  text-align: center;
+  font-size: bold;
+  height: 200vh; /* Altura aumentada para permitir rolagem */
+}
+
+.about p {
+  background-color: #dafdba;
+  text-align: center;
+  font-size: "bold";
+}
+
+/* Color Theme Swatches in Hex */
+.Poseidon-1-hex {
+  color: #012030;
+}
+.Poseidon-2-hex {
+  color: #13678a;
+}
+.Poseidon-3-hex {
+  color: #45c4b0;
+}
+.Poseidon-4-hex {
+  color: #9aeba3;
+}
+.Poseidon-5-hex {
+  color: #dafdba;
+}
+
+/* Color Theme Swatches in RGBA */
+.Poseidon-1-rgba {
+  color: rgba(0, 32, 48, 1);
+}
+.Poseidon-2-rgba {
+  color: rgba(18, 103, 138, 1);
+}
+.Poseidon-3-rgba {
+  color: rgba(68, 196, 175, 1);
+}
+.Poseidon-4-rgba {
+  color: rgba(153, 234, 162, 1);
+}
+.Poseidon-5-rgba {
+  color: rgba(217, 252, 186, 1);
+}
+
+/* Color Theme Swatches in HSLA */
+.Poseidon-1-hsla {
+  color: hsla(200, 96, 9, 1);
+}
+.Poseidon-2-hsla {
+  color: hsla(197, 76, 30, 1);
+}
+.Poseidon-3-hsla {
+  color: hsla(170, 52, 52, 1);
+}
+.Poseidon-4-hsla {
+  color: hsla(126, 66, 76, 1);
+}
+.Poseidon-5-hsla {
+  color: hsla(91, 94, 86, 1);
+}
+
 @media (prefers-color-scheme: dark) {
   .page {
     --gray-rgb: 255, 255, 255;
@@ -68,10 +145,7 @@
   padding: 0 20px;
   border: none;
   border: 1px solid transparent;
-  transition:
-    background 0.2s,
-    color 0.2s,
-    border-color 0.2s;
+  transition: background 0.2s, color 0.2s, border-color 0.2s;
   cursor: pointer;
   display: flex;
   align-items: center;
